@@ -2,25 +2,25 @@
   width: 100%;
 }
 .uno{
-  background-image: url("../images/background1.jpg");
+  background-image: url("../../images/background1.jpg");
 }
 .dos{
-  background-image: url("../images/tile1.png");
+  background-image: url("../../images/tile1.png");
 }
 .tres{
   background-color: white;
 }
 .cuatro{
-  background-image: url("../images/tile2.png");
+  background-image: url("../../images/tile2.png");
 }
 .cinco{
-  background-image: url("../images/greenish.jpg");
+  background-image: url("../../images/greenish.jpg");
 }
 .seis{
-  background-image: url("../images/chevron.jpg");
+  background-image: url("../../images/chevron.jpg");
 }
 .after-rain{
-  background-image: url("../images/after-rain.jpg");
+  background-image: url("../../images/after-rain.jpg");
 }
 .jumbotron{
   background-color: transparent !important;
