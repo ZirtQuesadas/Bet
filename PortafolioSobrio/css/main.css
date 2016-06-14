@@ -1,0 +1,228 @@
+.background{
+  width: 100%;
+}
+.uno{
+  background-image: url("../images/background1.jpg");
+}
+.dos{
+  background-image: url("../images/tile1.png");
+}
+.tres{
+  background-color: white;
+}
+.cuatro{
+  background-image: url("../images/tile2.png");
+}
+.cinco{
+  background-image: url("../images/greenish.jpg");
+}
+.seis{
+  background-image: url("../images/chevron.jpg");
+}
+.after-rain{
+  background-image: url("../images/after-rain.jpg");
+}
+.jumbotron{
+  background-color: transparent !important;
+  margin-top: 15%;
+}
+.text-white{
+  color: #fff !important;
+}
+/*botón header contacto*/
+button.round{
+  border-radius: 30%; !important;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+/*------------------>globales*/
+.text-white {
+  color: #FFFFFF;
+}
+.relative {
+  position: relative;
+}
+
+/*------------------>FIN globales*/
+
+/*------------------>NAV */
+.navbar-default {
+    background-color: #1B2738;
+    border-color: #1B2738;
+}
+/*------------------>FIN*/
+
+
+
+/*----------------->SOCIAL MEDIA*/
+.green {
+  background-color: #53DA79;
+}
+.circle {
+  margin-top: 24%;
+  border-radius: 60%;
+  width: 22%;
+  height: 75px;
+  background-color: #347648;
+}
+.margen-ico {
+  margin-left: 39%;
+  margin-top: 21%;
+}
+.margen-2ico {
+  margin-left: 27%;
+  margin-top: 21%;
+}
+.posi-redes {
+  margin-top: -32%;
+  margin-left: 27%;
+  margin-bottom: 23%;
+}
+/*----------------->FIN*/
+
+/*----------------->SECCION DE EN MEDIO*/
+.dife {
+  background-color: #f0f0f5;
+}
+.posi-btn {
+  margin-left: 20%;
+}
+/*----------------->FIN*/
+
+/*----------------->FOOTER*/
+.marino {
+  background-color: #1B2738;
+  color: #fff;
+}
+.foot-list {
+  margin-left: -15%;
+}
+/*Posicion de imagenes del blog*/
+.post {
+  margin-left: -15%;
+}
+.posi-blog{
+  margin-left: 33%;
+}
+.f-posts {
+  list-style-type: none;
+}
+.f-posts li {
+  margin-bottom: 1px;
+  padding-bottom: 11px;
+}
+.f-posts li img {
+  float: left;
+  width: 28%;
+}
+.post-size{
+  font-size: 11px;
+}
+.pd-ad {
+  margin: 0%;
+}
+footer a, footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.reserved {
+  background-color: #1B2738;
+}
+.posi-reseved {
+  margin: 2%;
+}
+
+
+/*-----------------------------------------> RESPONSIVE <-----------------------------------------*/
+
+/*----------------------Estilo de la seccion que continua del navegador-----------------*/
+a {
+   color: #FFFFFF;
+}
+li a:hover {
+  text-decoration: none;
+}
+.ar {
+  padding-top: 2em;
+}
+
+/*-------------------------otra seccion (sigiente de Portfolio)----------------------------------*/
+
+.dife {
+  background-color: #f0f0f5;
+  padding: 2% 0%;
+}
+.caja-img {
+  padding: 1em 1em 1em 1em;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+}
+.fo {
+  width: 100%;
+  height: 240px;
+}
+/*esta es la parte del estilo para  la seccion de services________________ Ofelia */
+.lado {
+  border-left-color: gray;
+}
+.peq {
+  color: #686868;
+}
+/*este estilo es para los iconos*/
+.circle {
+  width: 22%;
+  margin-top: 22px !important;
+  border-radius: 50%;
+  background-color: gray;
+}
+.go {
+  color: white;
+}
+
+
+/*-----------------------------------------> FIN <------------------------------------------------*/   
+/*---------------------------------CÓDIGO BET -------------------------------------------*/
+/*  GENERALES / COMUNES */
+.barra{
+    background-color: #aaa;
+    color: #fff;
+    height: 200px;
+}
+/*  CIERRA GENERALES / COMUNES */
+
+.pd-tp-bt{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.pd-lf-rg{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+/* -------------------------------------------- */
+/*.bg-color-work{/*para iconos de experiencia laboral en portfolio.html
+*/
+.bg{
+  background-color: #1B2738;
+  color: #fff;
+}
+.img-work {
+  width: 70%;
+}
+.bg ul, li, .left{
+  list-style: none;
+  text-align: left;
+  padding-top: 10px;
+}

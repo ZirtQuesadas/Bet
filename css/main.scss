@@ -1,0 +1,325 @@
+$gris: #f0f0f0;
+$Gris: #8d98a3;
+$Verde: #93D664; 
+$verde: #49b7b2;
+$azul: #6f69bc;
+$Violeta: #853c89;
+$menu: 7vw;
+<<<<<<< gh-pages
+$big-header-height: 100vh;
+=======
+$margin-menu: 6vw;
+$small-header-height: 18vh;
+
+>>>>>>> local
+
+/* GLOBALES!!!!!!*/
+* {
+	font-family: Open Sans Condensed;
+}
+a, a:hover{
+	text-decoration: none !important;
+	text-transform: none !important;
+}
+ul, li{
+	list-style: none;
+}
+/* /personal.html, /logros-habilidades.html, /experiencia.html */
+
+.aqcua {
+	color: $verde;
+}
+.verde {
+	color: $Verde;
+}
+.violeta {
+	color: $Violeta;
+}
+.azul {
+	color: $azul;
+}
+
+/*MENÚ LATERAL*/
+#container {
+    position: fixed;
+    overflow: visible; /*como que no hace nada*/
+    width: $menu;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: table;
+    z-index: 3;
+}
+/*clase para cada caja de color*/
+.section {
+    position: static;
+   /* max-height: 140px; /* 25%; 33.33333%; */
+    height: 33vh; /*de su viewport */
+    display: table-row;
+    text-align: center;
+}
+/*ROTA enlaces del menu*/
+a.link {
+    display: table-cell;
+    vertical-align: middle;
+    /*line-height: 60px; no importa */
+    white-space:nowrap; /*IMPORTANTE*/
+    max-width: $menu; /*IMPORTANTE tiende a hacerse ancho*/
+    font-size: 27px;	
+	color: #f0f0f0;
+	margin-top: 35%; /*mientras - se va + hacia arriba*/
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+ /*Esto se convierte en un padding right, por la rotación*/
+}
+/*NO CAMBIAR LA CLASE!! logros-habilidades y experiencia tienen ambas*/
+/*Para el menú*/
+/*ROTA de vuelta el icono dentro del enlace*/
+img.icono{
+	height: 25px !important;
+	width: 25px !important;
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+/*colores de divs delmenú*/
+.personal{
+    background-color: $verde;
+}
+.habilidades{
+    background-color: $Verde;
+}
+.experiencia{
+    background-color: $Violeta;
+}
+.personal:hover{
+	background-color: $azul;
+}
+.habilidades:hover{
+	background-color: $azul;
+}
+.experiencia:hover{
+	background-color: $azul;
+}
+
+/*PERSONAL*/
+div#about-me{
+	z-index: 2;
+	margin-left: $margin-menu;
+}
+div#about-me h1{
+	color: $verde !important;
+	font-size: 15vh;
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+}
+div#about-me h2{
+	color: $verde !important;
+	font-size: 7vh;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+div#about-me h3{
+	color: $gris;
+	font-size: 6vh;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+}
+div#about-me h4{
+	color: $Gris;
+	font-size: 5vh;
+}
+div#about-me h5{
+	color: $Gris;
+	font-size: 4vh;
+}
+ul.hobby-list li{
+	font-size: 4vh;
+}
+p.jumbo{
+	color: $gris;
+}
+/* /PERSONAL */
+
+/*DEFAULT*/
+/* header chico para: personal.html, logros-habilidades.html, experiencia.html */
+header.top{
+	position: fixed;
+	left: $menu;
+	top: 0;
+	height: 33vh !important;
+	width: 100%;
+    z-index: 2; /*va una capa abajo del menú lateral*/
+    background-color: #fff;
+}
+<<<<<<< gh-pages
+.row-hight {
+	height: 33vh;
+	top: 0;
+}
+header.top .ProfilePic{
+	height: 27vh;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	margin-left: 5vh;
+	width: auto;
+	border-radius: 100%;
+	border: solid 5px $azul;
+}
+#name-wrap{
+	vertical-align: center;
+	top: 0;
+}
+#Name{
+    color: $azul;
+    font-size: 28px;
+}
+#Sub{
+    color: $Gris;	
+}
+header.top .header-contact-box{
+	text-align: center;
+	vertical-align: center;
+	}
+img.ico-big{
+	position: relative;
+	height: 20px;
+	width: auto;
+}
+.content {
+    height: auto;
+    margin-left: $menu;
+    margin-top: 45vh;
+=======
+	header.top .ProfilePic{
+		height: 15vh;
+		width: auto;
+		margin-top: 1vh;
+		margin-bottom: 1vh;
+		margin-left: 15vw;
+		border-radius: 100%;
+		border: solid 5px;
+	}
+	#name-wrap{
+		vertical-align: center;
+		margin-top: 2vh;
+	}
+	#Name{
+	    font-size: 6vh;
+	    margin: 0;
+	}
+	#Sub{
+	    color: $Gris;	
+	    font-size: 5vh;
+	    margin: 0;
+	}
+	.contact{
+	    font-size: 6vh;
+	    margin: 0;
+	    vertical-align: center;
+		margin-top: 1vh;
+	}
+	img.ico-big{
+		position: relative;
+		height: 5vh;
+		width: auto;
+	}
+.first-content{
+	margin-top: $small-header-height;
+    padding-top: 7vw;
+}
+.main-content {
+    margin-left: $margin-menu;
+    margin-right: -15px;
+    padding: 3vh 3vw;
+}
+
+/*PERSONAL*/
+.main-content-personal{
+	margin-left: $margin-menu;
+    margin-right: -15px;
+    margin-top: $small-header-height;
+    padding: 3vh 5vw;
+    background-color: $verde;
+    color: #fff !important;
+}
+#personal .ProfilePic{
+	border: solid 5px $verde;
+}
+#personal #Name{
+	color: $verde;
+}
+#personal #Sub{
+	color: $Gris;
+}
+
+/*  /PERSONAL  */
+
+/* logros-habilidades*/
+.main-content-logros{
+	margin-left: $margin-menu;
+    margin-right: -15px;
+    margin-top: $small-header-height;
+    padding: 3vh 5vw;
+    background-color: $Verde;
+    color: #fff;
+>>>>>>> local
+}
+#logros-habilidades .ProfilePic{
+	border: solid 5px $Verde;
+}
+#logros-habilidades #Name, .contact{
+	color: $Verde;
+}
+#logros-habilidades #Sub{
+	color: $Gris;
+}
+/*  /logros-habilidades */
+
+.main-content-experiencia{
+	margin-left: $margin-menu;
+    margin-right: -15px;
+    margin-top: $small-header-height;
+    padding: 3vh 5vw;
+    background-color: $Violeta;
+    color: #fff;
+}
+#logros-habilidades .ProfilePic{
+	border: solid 5px $Violeta;
+}
+#logros-habilidades #Name, .contact{
+	color: $Violeta;
+}
+#logros-habilidades #Sub{
+	color: $Gris;
+}
+/*   MEDIA QUERIES*/
+/*		XS devices (phones, less than 768px)  */
+@media (min-width: 368px)  and (max-width: 767px) {
+	
+	header.top h1{
+		max-height: 9vh;
+	}
+	header.top h2{
+		max-height: 4vh;
+	}
+	#name-wrap{
+	text-align: center;
+	top: 0;
+}
+}
+/* 		SM devices (tablets, 768px up to 991px) */
+@media (min-width: 768px)  and (max-width: 991px) {
+	  text-align: left;
+}
+/* Medium devices (desktops, 992px up to 1999px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+ 		
+}
+/* Medium devices (desktops, 992px up to 1999px) */
+@media (min-width: 1200px) {   
+ 		
+}

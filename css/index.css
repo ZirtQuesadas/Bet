@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* GLOBALES!!!!!!*/
+* {
+  font-family: Open Sans Condensed; }
+
+a, a:hover {
+  text-decoration: none !important;
+  text-transform: none !important; }
+
+/* /personal.html, /logros-habilidades.html, /experiencia.html */
+.aqcua {
+  color: #49b7b2; }
+
+.verde {
+  color: #93D664; }
+
+.violeta {
+  color: #853c89; }
+
+.azul {
+  color: #6f69bc; }
+
+/*MEN├Ü LATERAL*/
+#container {
+  position: fixed;
+  overflow: visible;
+  /*como que no hace nada*/
+  width: 7vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: table;
+  z-index: 3; }
+
+/*clase para cada caja de color*/
+.section {
+  position: static;
+  /* max-height: 140px; /* 25%; 33.33333%; */
+  height: 33vh;
+  /*de su viewport */
+  display: table-row;
+  text-align: center; }
+
+/*ROTA enlaces del menu*/
+a.link {
+  display: table-cell;
+  vertical-align: middle;
+  /*line-height: 60px; no importa */
+  white-space: nowrap;
+  /*IMPORTANTE*/
+  max-width: 7vw;
+  /*IMPORTANTE tiende a hacerse ancho*/
+  font-size: 25px;
+  color: #f0f0f0;
+  margin-top: 35%;
+  /*mientras - se va + hacia arriba*/
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  /*Esto se convierte en un padding right, por la rotaci├│n*/ }
+
+/*NO CAMBIAR LA CLASE!! logros-habilidades y experiencia tienen ambas*/
+/*Para el men├║*/
+/*ROTA de vuelta el icono dentro del enlace*/
+img.icono {
+  height: 30px !important;
+  width: 30px !important;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg); }
+
+/*colores de divs delmen├║*/
+.personal {
+  background-color: #49b7b2; }
+
+.habilidades {
+  background-color: #93D664; }
+
+.experiencia {
+  background-color: #853c89; }
+
+.personal:hover {
+  background-color: #6f69bc; }
+
+.habilidades:hover {
+  background-color: #6f69bc; }
+
+.experiencia:hover {
+  background-color: #6f69bc; }
+
+/*DEFAULT*/
+/*	DEFAULT: XS devices (phones, less than 768px)  */
+/* index  */
+header.big {
+  position: relative;
+  top: 0;
+  left: 3vw;
+  background-color: #fff;
+  height: 100vh;
+  /*antes 50vh AHORA 100vh*/
+  z-index: 2;
+  vertical-align: center; }
+
+header.big .ProfilePic {
+  position: relative;
+  border-radius: 100%;
+  border: solid 7px #6f69bc;
+  height: 40vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+  width: auto; }
+
+#name-wrap {
+  position: relative;
+  vertical-align: center;
+  height: 20vh;
+  padding-left: 5vw;
+  margin-bottom: 5vh; }
+
+#Name {
+  color: #6f69bc; }
+
+#Sub {
+  color: #8d98a3; }
+
+header.big .header-contact-box {
+  height: 20vh;
+  text-align: center;
+  margin-top: 5vh;
+  vertical-align: center; }
+
+/*para CONTACTO de header.big en index*/
+img.ico-big {
+  height: 5vh;
+  width: auto; }
+
+h3.contact {
+  color: #6f69bc; }
+
+header.big .content-below-big {
+  margin-top: 100vh;
+  margin-left: 7vw;
+  padding-top: 10px;
+  padding-left: 10px; }
+
+section#contact-us{
+  padding-left: 5vw;
+}
+
+
+
+/*   MEDIA QUERIES*/
+/* 		SM devices (tablets, 768px up to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  header.big #Name {
+    font-size: 35px;
+    color: #49b7b2; }
+
+  header.big #Sub {
+    font-size: 25px; }
+
+  h3.contact {
+    color: #49b7b2; } }
+/* Medium devices (desktops, 992px up to 1999px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  header.big .ProfilePic {
+    height: 70vh;
+    width: auto;
+    margin-top: 15vh;
+    margin-bottom: 15vh; }
+
+  header.big #Name {
+    font-size: 45px;
+    color: #93D664; }
+
+  header.big #Sub {
+    font-size: 35px;
+    margin-left: 2vh;
+    margin-top: 10px; }
+
+  header.big #name-wrap {
+    margin-top: 20vh; }
+
+  #contacto {
+    height: 25vh;
+    text-align: center;
+    margin-top: 11vh;
+    vertical-align: bottom; }
+
+  h3.contact {
+    color: #93D664; } }
+/* LARGE devices (MORE THAN 1999px) */
+@media (min-width: 1200px) {
+  header.big .ProfilePic {
+    height: 70vh;
+    width: auto;
+    margin-top: 15vh;
+    margin-left: 5vw; }
+
+  header.big #Name {
+    font-size: 55px;
+    color: #853c89; }
+
+  header.big #Sub {
+    font-size: 45px;
+    margin-top: 3vh; }
+
+  header.big #name-wrap {
+    margin-top: 15vh;
+    text-align: left; }
+
+  h3.contact {
+    color: #853c89; }
+
+  #contacto {
+    display: none; }
+
+	header.big #contact-us{
+		text-align: center;
+		margin-top: 5vh;
+    margin-right: 5vw;
+		vertical-align: bottom;
+		}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/contact-me.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+<body id="contacto">
+    <div id="container"> <!--MENÚ DE NAVEGACIÓN-->  
+        <div class="section personal">
+            <a href="personal.html" class="link">PERSONAL 
+                <img class="icono" src="icons/profile-w.png" alt="ProfileIcon">
+            </a>
+        </div>
+        <div class="section habilidades">
+            <a href="logros-habilidades.html" class="link">HABILIDADES
+                <img class="icono" src="icons/coding-w.png" alt="CodingIcon">
+            </a>
+        </div>
+        <div class="section experiencia">
+            <a href="portafolio-experiencia.html" class="link">EXPERIENCIA
+                <img class="icono" src="icons/gears-w.png" alt="">      
+            </a>
+        </div>          
+    </div>  <!-- /MENÚ DE NAVEGACIÓN-->
+
+    <header class="full">
+        <div class="background uno">
+            <div class="container">
+                <div class="jumbotron"><!--HACER TRANSPARENTE. CENTRAR VERTICAL: PADDING-->
+                    <h1 class="text-white">CONTACTO </h1>
+                    <br>
+                    <center>
+                        <h2 class="text-white">También podemos <a href="https://beatrizquesadas.youcanbook.me/">agendar una cita en:
+                         youcanbook.me </a>  
+                        </h2>
+                        <br>
+                    </center>
+
+                </div> <!-- /jumbotron-->  
+            </div>
+        </div>
+    </header>
+    <br>
+
+    <section id="contact-us">
+        <br>
+        <div class="container">
+            <div class="row">
+                <br>
+                <form class="form-login" action="contact-me.html" id="escribeme">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <h2 class="form-login-heading">Escríbeme</h2>
+                        <div class="login-wrap">
+                            <input type="text" class="form-control" placeholder="First Name" autofocus>
+                            <br>
+                            <input type="text" class="form-control" placeholder="Last Name" autofocus>
+                            <br>
+                            <input type="text" class="form-control" placeholder="Email Address" autofocus>
+                            <br>
+                            <button id="btn-colors" class="btn btn-theme btn-block btn-primary" href="contact-us.html" type="submit"> Enviar Mensaje</button>
+                            <br>
+                        </div> <!-- /login-wrap-->
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <br>
+                        <br>
+                        <br>
+                        <textarea class="form-control" rows="7" id="comment" placeholder="Message"></textarea>
+                        <br>
+                        
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4">
+                        <div class="our-location">
+                            <h2 class="form-login-heading">Me encuentro en:</h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41664.625346132954!2d-99.15839322028603!3d19.421117598950545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2zQ2l1ZGFkIGRlIE3DqXhpY28sIEQuRi4sIE3DqXhpY28!5e1!3m2!1ses-419!2smx!4v1465366718822" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    
+                </form>   
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>  
+
+    <!-- Inserte código aqui -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+                <!-- Modal 
+                <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">¿Te olvidaste el password?</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Ingresa tu email para recuperar tu contraseña.</p>
+                                <input type="text" name="email" placeholder="Email" autocomplete="off" class="form-control placeholder-no-fix">
+
+                            </div>
+                            <div class="modal-footer">
+                                <button data-dismiss="modal" class="btn btn-default" type="button">Cancelar</button>
+                                <button class="btn btn-theme" type="button">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 /modal -->
+</body>
+</html>

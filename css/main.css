@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/* GLOBALES!!!!!!*/
+* {
+  font-family: Open Sans Condensed; }
+
+a, a:hover {
+  text-decoration: none !important;
+  text-transform: none !important; }
+
+ul, li {
+  list-style: none; }
+
+/* /personal.html, /logros-habilidades.html, /experiencia.html */
+.aqcua {
+  color: #49b7b2; }
+
+.verde {
+  color: #93D664; }
+
+.violeta {
+  color: #853c89; }
+
+.azul {
+  color: #6f69bc; }
+
+/*MEN├Ü LATERAL*/
+#container {
+  position: fixed;
+  overflow: visible;
+  /*como que no hace nada*/
+  width: 7vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: table;
+  z-index: 3; }
+
+/*clase para cada caja de color*/
+.section {
+  position: static;
+  /* max-height: 140px; /* 25%; 33.33333%; */
+  height: 33vh;
+  /*de su viewport */
+  display: table-row;
+  text-align: center; }
+
+/*ROTA enlaces del menu*/
+a.link {
+  display: table-cell;
+  vertical-align: middle;
+  /*line-height: 60px; no importa */
+  white-space: nowrap;
+  /*IMPORTANTE*/
+  max-width: 7vw;
+  /*IMPORTANTE tiende a hacerse ancho*/
+  font-size: 27px;
+  color: #f0f0f0;
+  margin-top: 35%;
+  /*mientras - se va + hacia arriba*/
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  /*Esto se convierte en un padding right, por la rotaci├│n*/ }
+
+/*NO CAMBIAR LA CLASE!! logros-habilidades y experiencia tienen ambas*/
+/*Para el men├║*/
+/*ROTA de vuelta el icono dentro del enlace*/
+img.icono {
+  height: 25px !important;
+  width: 25px !important;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg); }
+
+/*colores de divs delmen├║*/
+.personal {
+  background-color: #49b7b2; }
+
+.habilidades {
+  background-color: #93D664; }
+
+.experiencia {
+  background-color: #853c89; }
+
+.personal:hover {
+  background-color: #6f69bc; }
+
+.habilidades:hover {
+  background-color: #6f69bc; }
+
+.experiencia:hover {
+  background-color: #6f69bc; }
+
+/*PERSONAL*/
+div#about-me {
+  z-index: 2;
+  margin-left: 6vw; }
+
+div#about-me h1 {
+  color: #49b7b2 !important;
+  font-size: 15vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh; }
+
+div#about-me h2 {
+  color: #49b7b2 !important;
+  font-size: 7vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh; }
+
+div#about-me h3 {
+  color: #f0f0f0;
+  font-size: 6vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh; }
+
+div#about-me h4 {
+  color: #8d98a3;
+  font-size: 5vh; }
+
+div#about-me h5 {
+  color: #8d98a3;
+  font-size: 4vh; }
+
+ul.hobby-list li {
+  font-size: 4vh; }
+
+p.jumbo {
+  color: #f0f0f0; }
+
+/* /PERSONAL */
+/*DEFAULT*/
+/* header chico para: personal.html, logros-habilidades.html, experiencia.html */
+header.top {
+  position: fixed;
+<<<<<<< gh-pages
+  left: 7vw;
+  top: 0;
+  height: 33vh !important;
+=======
+  left: 6vw;
+  margin-top: 0;
+  margin-bottom: 2vh;
+  padding: 2vh 5vw;
+  padding-right: 7vw;
+  height: 18vh;
+  /*17vh*/
+>>>>>>> local
+  width: 100%;
+  z-index: 2;
+  /*va una capa abajo del men├║ lateral*/
+  background-color: #fff; }
+
+.row-hight {
+  height: 33vh;
+  top: 0; }
+
+header.top .ProfilePic {
+  height: 27vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: 5vh;
+  width: auto;
+  border-radius: 100%;
+  border: solid 5px; }
+
+#name-wrap {
+  vertical-align: center;
+  top: 0; }
+
+#Name {
+<<<<<<< gh-pages
+  color: #6f69bc;
+  font-size: 28px; }
+=======
+  font-size: 6vh;
+  margin: 0; }
+>>>>>>> local
+
+#Sub {
+  color: #8d98a3; }
+
+<<<<<<< gh-pages
+header.top .header-contact-box {
+  text-align: center;
+  vertical-align: center; }
+
+img.ico-big {
+  position: relative;
+  height: 20px;
+  width: auto; }
+
+.content {
+  height: auto;
+  margin-left: 7vw;
+  margin-top: 45vh; }
+=======
+.contact {
+  font-size: 6vh;
+  margin: 0;
+  vertical-align: center;
+  margin-top: 1vh; }
+
+img.ico-big {
+  position: relative;
+  height: 5vh;
+  width: auto; }
+
+.first-content {
+  margin-top: 18vh;
+  padding-top: 7vw; }
+
+.main-content {
+  margin-left: 6vw;
+  margin-right: -15px;
+  padding: 3vh 3vw; }
+
+/*PERSONAL*/
+.main-content-personal {
+  margin-left: 6vw;
+  margin-right: -15px;
+  margin-top: 18vh;
+  padding: 3vh 5vw;
+  background-color: #49b7b2;
+  color: #fff !important; }
+
+#personal .ProfilePic {
+  border: solid 5px #49b7b2; }
+
+#personal #Name {
+  color: #49b7b2; }
+
+#personal #Sub {
+  color: #8d98a3; }
+
+/*  /PERSONAL  */
+/* logros-habilidades*/
+.main-content-logros {
+  margin-left: 6vw;
+  margin-right: -15px;
+  margin-top: 18vh;
+  padding: 3vh 5vw;
+  background-color: #93D664;
+  color: #fff; }
+
+#logros-habilidades .ProfilePic {
+  border: solid 5px #93D664; }
+
+#logros-habilidades #Name, .contact {
+  color: #93D664; }
+
+#logros-habilidades #Sub {
+  color: #8d98a3; }
+
+/*  /logros-habilidades */
+.main-content-experiencia {
+  margin-left: 6vw;
+  margin-right: -15px;
+  margin-top: 18vh;
+  padding: 3vh 5vw;
+  background-color: #853c89;
+  color: #fff; }
+>>>>>>> local
+
+#logros-habilidades .ProfilePic {
+  border: solid 5px #853c89; }
+
+#logros-habilidades #Name, .contact {
+  color: #853c89; }
+
+#logros-habilidades #Sub {
+  color: #8d98a3; }
+
+/*   MEDIA QUERIES*/
+/*		XS devices (phones, less than 768px)  */
+@media (min-width: 368px) and (max-width: 767px) {
+  header.top h1 {
+    max-height: 9vh; }
+
+  header.top h2 {
+    max-height: 4vh; }
+
+  #name-wrap {
+    text-align: center;
+    top: 0; } }
+/* 		SM devices (tablets, 768px up to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  text-align: left; }
+/* Medium devices (desktops, 992px up to 1999px) */
+/* Medium devices (desktops, 992px up to 1999px) */
+
+/*# sourceMappingURL=main.css.map */

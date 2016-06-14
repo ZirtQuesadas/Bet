@@ -1,0 +1,31 @@
+.background{
+  width: 100%;
+}
+.uno{
+  background-image: url("../images/background1.jpg");
+}
+.dos{
+  background-image: url("../images/tile1.png");
+}
+.tres{
+  background-color: white;
+}
+.cuatro{
+  background-image: url("../images/tile2.png");
+}
+.cinco{
+  background-image: url("../images/greenish.jpg");
+}
+.ProfilePic{
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+.fo{
+	width: 15vw;
+	height: auto;
+}
+
+.bt{
+	margin-bottom: 10vh;
+}
